@@ -26,7 +26,7 @@ ___
 
 **1. Create a C project in CLion**
 
-If you are new to Clion, please use [this](https://www.jetbrains.com/help/clion/clion-quick-start-guide.html). Windows users, please use [this](https://www.jetbrains.com/help/clion/quick-tutorial-on-configuring-clion-on-windows.html)
+If you are new to Clion, please use [this](https://www.jetbrains.com/help/clion/clion-quick-start-guide.html). Windows users, please use [this](https://www.jetbrains.com/help/clion/quick-tutorial-on-configuring-clion-on-windows.html) and [this](https://engineroom.teamwork.com/using-cygwins-bash-terminal-in-a-jetbrains-ide-d22dd71b52b4)
 
 By creating C project, be careful and check that you correctly choose *C executable* and *C99* compiler. Like this
 ![GitHub](https://github.com/cubazis/inno_ansic_spring/blob/master/imgs/clion0.jpg). 
