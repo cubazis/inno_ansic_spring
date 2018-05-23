@@ -9,7 +9,7 @@ It will help you make your first CORRECT steps in learning the C language and th
 
 Further please read the policy of handing over laboratory works and homeworks. You will receive this information on the [Workload](https://github.com/cubazis/inno_ansic_spring/wiki/Workload) wiki page.
 
-Since we use github as part of the course, please read the [C on Git (HowTo)](https://github.com/cubazis/inno_ansic_spring/wiki/C-on-Git-(HowTo)) page. This page provides a minimal step-by-step deployment plan from the project to github.
+Since we use github as part of the course, please read the [C on Git (HowTo)](https://github.com/cubazis/inno_ansic_spring/wiki/C-on-Git-(HowTo)) page. This page provides a minimal step-by-step deployment plan from the C project to github.
 
 
 Links to the course materials will appear in [README](https://github.com/cubazis/inno_ansic_spring/blob/master/README.md), so please check the current changes in this file.
