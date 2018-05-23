@@ -32,3 +32,8 @@ Martian Roadmap:
 - [1 Sol: ](lectures/)
     - [Lab Session 1](labs/)
     - [Assignment 1](assignments/)
+    
+___
+
+Schedule and team lineups can be found on [wiki page](https://github.com/cubazis/inno_ansic_spring/wiki/Schedule-&-lineups
+)
