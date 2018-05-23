@@ -69,10 +69,10 @@ int main() {
 #include <limits.h>
 #include <stdio.h>
 
-#ifndef INC_2_6_BIN_H
-#define INC_2_6_BIN_H
+#ifndef TEMPLATE_BINARIZE_H
+#define TEMPLATE_BINARIZE_H
 
-#endif //INC_2_6_BIN_H
+#endif //TEMPLATE_BINARIZE_H
 
 void binarize_u(unsigned long long x);
 
@@ -82,7 +82,7 @@ void binarize_s(signed long long y);
 *binarize.c* contains implementation of functions like this:
 
 ```C
-#include "bin.h"
+#include "binarize.h"
 
 void binarize_u(unsigned long long x){
     // YOUR CODE HERE PLEASE
