@@ -102,3 +102,7 @@ ___
 
 **3. Add me as collaborator**
 ![GitHub](https://github.com/cubazis/inno_ansic_spring/blob/master/imgs/git0.jpg)
+
+___
+**Deadline**
+Try to finish it before the lab session 12:20, 24 May
