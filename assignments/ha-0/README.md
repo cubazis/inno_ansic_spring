@@ -28,9 +28,10 @@ ___
 
 If you are new to Clion, please use [this](https://www.jetbrains.com/help/clion/clion-quick-start-guide.html). Windows users, please use [this](https://www.jetbrains.com/help/clion/quick-tutorial-on-configuring-clion-on-windows.html)
 
-By creating C project, be careful and check that you correctly choose *C executable* and *C99* compiler. 
+By creating C project, be careful and check that you correctly choose *C executable* and *C99* compiler. Like this
+![GitHub](https://github.com/cubazis/inno_ansic_spring/blob/master/imgs/clion0.jpg). 
 
-Then please keep this certain structure of C project from the template.
+Then please keep this certain structure of C project from the [template](https://github.com/cubazis/inno_ansic_spring/tree/master/assignments/ha-0/template).
 
 ```
 ha-0
@@ -95,9 +96,9 @@ void binarize_s(signed long long y){
 ___
 
 **2. Push it on github**
-To do that create a repository of the project in you github.com account and by using this certain example push it on there.
+To do that create a repository of the project in you github.com account and by using this [certain example](https://github.com/cubazis/inno_ansic_spring/wiki/C-on-Git-(HowTo)) push it on there.
 
 ___
 
 **3. Add me as collaborator**
-[text](link)
+![GitHub](https://github.com/cubazis/inno_ansic_spring/blob/master/imgs/git0.jpg)
