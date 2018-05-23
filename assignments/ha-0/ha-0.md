@@ -51,8 +51,8 @@ ha-0
 int main() {
     unsigned long ul = 1608637542;
     signed long sl = -1608637542;
-    binarize_u(x);
-    binarize_s(y);
+    binarize_u(ul);
+    binarize_s(sl);
 }
 ```
 
@@ -68,10 +68,10 @@ int main() {
 #include <limits.h>
 #include <stdio.h>
 
-#ifndef INC_HA_0_BINARIZE_H
-#define INC_HA_0_BINARIZE_H
+#ifndef INC_2_6_BIN_H
+#define INC_2_6_BIN_H
 
-#endif //INC_HA_0_BINARIZE_H
+#endif //INC_2_6_BIN_H
 
 void binarize_u(unsigned long long x);
 
