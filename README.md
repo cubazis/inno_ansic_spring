@@ -9,4 +9,20 @@ and [additional tools](https://github.com/cubazis/inno_ansic_spring/wiki/Toolkit
 
 Links to the course materials will appear in [README](https://github.com/cubazis/inno_ansic_spring/blob/master/README.md), so please check the current changes in this file.
 
-The course materials themselves will be partially laid out in the current repository, or in the Google Drive accessible to all students. A link to Google Drive is in the Telegram channel. A respectful request is not a share link, because some materials are private intellectual property.
+The course materials themselves will be partially laid out in the current repository, or in the Google Drive folder. 
+The [link to Google Drive](https://github.com/cubazis/inno_ansic_spring/blob/master/imgs/ahahah.gif) is in the Telegram channel. 
+Please don't share the link to Google Drive or to Telegram Channel, because some materials are private intellectual property.
+
+___
+
+### Course Structure
+The average length of a Martian solar day (often called a sol) is 24 h 39 m 35.244147 s (88,775.244147 seconds). So, Mars' solar day is only about 2.7% longer than Earth's. That's why I prefer use Sols.
+
+Below is given a roadmap course. Since the course is actually held for the first time, the card will be replenished on the go.
+
+Sols:
+- [0 Sol: ](lectures/)
+    - [Assignment 0](assignments/)
+- [1 Sol: ](lectures/)
+    - [Lab Session 1](labs/)
+    - [Assignment 1](assignments/)
