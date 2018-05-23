@@ -1,4 +1,4 @@
-# ANSI C. Innopolis Spring 2018
+ANSI C. Innopolis Spring 2018
 =========================
 
 First, read the [project wiki](https://github.com/cubazis/inno_ansic_spring/wiki/Main).
