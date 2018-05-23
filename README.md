@@ -28,7 +28,7 @@ Each Sol contains lecture, lab session and assignment materials.
 
 Martian Roadmap:
 - [0 Sol: ](lectures/)
-    - [Assignment 0](assignments/)
+    - [Assignment 0](assignments/ha-0/README.md)
 - [1 Sol: ](lectures/)
     - [Lab Session 1](labs/)
     - [Assignment 1](assignments/)
