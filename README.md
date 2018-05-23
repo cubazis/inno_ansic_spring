@@ -19,6 +19,7 @@ ___
 The average length of a Martian solar day (often called a sol) is 24 h 39 m 35.244147 s (88,775.244147 seconds). So, Mars' solar day is only about 2.7% longer than Earth's. That's why I prefer use Sols.
 
 Below is given a roadmap course. Since the course is actually held for the first time, the card will be replenished on the go.
+Each Sol contains lecture, lab session and assignment materials. 
 
 Sols:
 - [0 Sol: ](lectures/)
