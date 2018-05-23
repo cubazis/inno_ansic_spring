@@ -12,3 +12,7 @@ Links to the course materials will appear in [README](https://github.com/cubazis
 The course materials themselves will be partially laid out in the current repository, or in the Google Drive folder. 
 The [link to Google Drive](https://github.com/cubazis/inno_ansic_spring/blob/master/imgs/ahahah.gif) is in the Telegram channel. 
 Please don't share the link to Google Drive or to Telegram Channel, because some materials are private intellectual property.
+
+___
+
+ololo
