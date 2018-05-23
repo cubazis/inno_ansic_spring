@@ -15,4 +15,12 @@ Please don't share the link to Google Drive or to Telegram Channel, because some
 
 ___
 
-ololo
+### Course Structure
+
+
+Sols:
+- [0 Sol: ](lectures/)
+    - [Assignment 0](assignments/)
+- [1 Sol: ](lectures/)
+    - [Lab Session 1](labs/)
+    - [Assignment 1](assignments/)
