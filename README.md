@@ -21,7 +21,7 @@ The average length of a Martian solar day (often called a sol) is 24 h 39 m 35.2
 Below is given a roadmap course. Since the course is actually held for the first time, the card will be replenished on the go.
 Each Sol contains lecture, lab session and assignment materials. 
 
-Sols:
+Martian Roadmap:
 - [0 Sol: ](lectures/)
     - [Assignment 0](assignments/)
 - [1 Sol: ](lectures/)
