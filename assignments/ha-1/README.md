@@ -16,7 +16,15 @@ tests/test_binarize.c
 ```
 ## Tasks
 
-Не отклоняйтесь от этой архитектуры, потому как и я и вы будете тестить исходники ваших товарищей. Проще всего не отклоняться от данного шаблона чтобы просто скопировать тестируемый исходник.
+### Binarizator
+Note that the declarations of *binarize_u* and *binarize_s* functions have changed. Now they must return *char**. 
+That was done to make them testable.
+
+Please finish implementation of these two functions and support them by two test cases. Test cases stubs are already in test_binarize.c.
+
+### KR Tasks
+
+Не отклоняйтесь от предлагаемой архитектуры, потому как и я и вы будете тестить исходники ваших товарищей. Проще всего не отклоняться от данного шаблона чтобы просто скопировать тестируемый исходник.
 
 Разбейтесь на команды по 4. Составы впишите в файлик (скину ссыль). Каждая команда заводит репозиторий и проект с указанной архитектурой папок и файлов. Вы решаете
 
