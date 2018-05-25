@@ -18,6 +18,7 @@ double uniform_distribution(void)
 	for ( ; denom_to_k < limit; denom_to_k *= denom )
 		numer += rand() * denom_to_k;
 
+
 	double result = numer / denom_to_k;
 	if (result == 1.0)
 		result -= DBL_EPSILON/2;
