@@ -50,5 +50,26 @@ char* enter(int n, const char input[]);
 
 char* flush(const char input[]);
 
+int htoi(const char s[]);
+
+char* squeeze(const char s1[], const char s2[]);
+
+int any(const char s1[], const char s2[]);
+
+unsigned setbits(unsigned x, int p, int n, unsigned y);
+
+int binsearch(int x, int v[], int n);
+
+char* escape(const char from[], const char to[]);
+
+char* expand(const char s1[], const char s2[]);
+
+char* itoa(int n, const char s[]);
+
+char* itob(int n, const char s[], int b);
+
+int strrindex(const char s[], const  char t[]);
+
+double atofe(const char s[]);
 
 #endif //TEMPLATE_TASK_H
