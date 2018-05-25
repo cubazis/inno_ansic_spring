@@ -5,21 +5,26 @@
 #include "binarize.h"
 
 
-START_TEST (test_bin)
+START_TEST (test_bin_u)
 {
 	unsigned long x = 1608637542;
-	signed long y = -1608637542;
 
 	binarize_u(x);
+}
+END_TEST
 
-	binarize_s(y);
+START_TEST (test_bin_s)
+{
+	signed long x = -1608637542;
+	binarize_s(x);
 }
 END_TEST
 
 Suite* str_suite (void) {
 	Suite *suite = suite_create("binarize");
 	TCase *tcase = tcase_create("case");
-	tcase_add_test(tcase, test_bin);
+	tcase_add_test(tcase, test_bin_u);
+	tcase_add_test(tcase, test_bin_s);
 	suite_add_tcase(suite, tcase);
 	return suite;
 }
