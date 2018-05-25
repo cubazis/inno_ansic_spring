@@ -74,40 +74,15 @@ void two_complement(char *b)
 	/** YOUR CODE HERE */
 }
 
-void binarize_u(unsigned long long x)
+char* binarize_u(unsigned long long x)
 {
-	unsigned long long mask = 1;
-	int size;
-/*    if(x <= 255){
-        size = 1 * 8 - 1;
-    }
-    else */if(x <= USHRT_MAX){
-		size = sizeof(unsigned short int) * 8 - 1;
-	} else if(x <= UINT_MAX){
-		size = sizeof(unsigned int) * 8 - 1;
-	} else{
-		size = sizeof(unsigned long long) * 8 - 1;
-	}
-	mask <<= size;
-	char c[size];
-	int j = 0, i;
-	while (j <= size){
-		c[j] = '0';
-		++j;
-	}
-	for(j = 0, i = size; j <= size; ++j, --i)
-	{
-		c[j] = (char) ((x & mask) ? '1' : '0');
-		x <<= 1;
-	}
-	c[j] = '\0';
-	printBitSet(c);
+
 }
 
-void binarize_s(signed long long y)
+char* binarize_s(signed long long y)
 {
 	/** YOUR CODE HERE */
-	printf("STUB\n");
+
 }
 
 

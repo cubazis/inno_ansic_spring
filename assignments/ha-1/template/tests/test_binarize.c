@@ -7,16 +7,11 @@
 
 START_TEST (test_bin)
 {
-	printf("unsigned UINT_MAX: ");
-	binarize_u(UINT_MAX);
-
 	unsigned long x = 1608637542;
 	signed long y = -1608637542;
 
-	printf("unsigned long x: %lu\n", x);
-	printf("signed long x: %ld\n", y);
-
 	binarize_u(x);
+
 	binarize_s(y);
 }
 END_TEST

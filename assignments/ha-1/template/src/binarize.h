@@ -9,8 +9,8 @@
 #include <stdio.h>
 
 
-void binarize_u(unsigned long long x);
+char* binarize_u(unsigned long long x);
 
-void binarize_s(signed long long y);
+char* binarize_s(signed long long y);
 
 #endif //BINARIZE_BINARIZE_H

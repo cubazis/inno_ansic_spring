@@ -53,13 +53,114 @@ START_TEST (test_detab)
 }
 END_TEST
 
+START_TEST (test_entab)
+{
+
+}
+END_TEST
+
+START_TEST (test_enter)
+{
+
+}
+END_TEST
+
+START_TEST (test_flush)
+{
+
+}
+END_TEST
+
+START_TEST (test_htoi)
+{
+
+}
+END_TEST
+
+START_TEST (test_squeeze)
+{
+
+}
+END_TEST
+
+START_TEST (test_any)
+{
+
+}
+END_TEST
+
+START_TEST (test_setbits)
+{
+
+}
+END_TEST
+
+START_TEST (test_binsearch)
+{
+
+}
+END_TEST
+
+START_TEST (test_escape)
+{
+
+}
+END_TEST
+
+START_TEST (test_expand)
+{
+
+}
+END_TEST
+
+START_TEST (test_itoa)
+{
+
+}
+END_TEST
+
+START_TEST (test_itob)
+{
+
+}
+END_TEST
+
+START_TEST (test_strrindex)
+{
+
+}
+END_TEST
+
+START_TEST (test_atofe)
+{
+
+}
+END_TEST
+
+
+
 Suite* str_suite (void) {
 	Suite *suite = suite_create("Home assignment 1");
 	TCase *tcase = tcase_create("case");
+
 	tcase_add_test(tcase, test_stub);
 	tcase_add_test(tcase, test_array_changer);
 
 	tcase_add_test(tcase, test_detab);
+	tcase_add_test(tcase, test_entab);
+	tcase_add_test(tcase, test_enter);
+	tcase_add_test(tcase, test_flush);
+	tcase_add_test(tcase, test_htoi);
+	tcase_add_test(tcase, test_squeeze);
+	tcase_add_test(tcase, test_any);
+	tcase_add_test(tcase, test_setbits);
+	tcase_add_test(tcase, test_binsearch);
+	tcase_add_test(tcase, test_escape);
+	tcase_add_test(tcase, test_expand);
+	tcase_add_test(tcase, test_itoa);
+	tcase_add_test(tcase, test_itob);
+	tcase_add_test(tcase, test_strrindex);
+	tcase_add_test(tcase, test_atofe);
 	/** YOUT TEST CASES HERE */
 
 	suite_add_tcase(suite, tcase);
