@@ -25,6 +25,14 @@ That was done to make them testable.
 
 Please finish implementation of these two functions and support them by two test cases. Test cases stubs are already in test_binarize.c.
 
+#### Example of binarization
+```
+32767 >> 01111111 11111111
+32768 >> 10000000 00000000
+65535 >> 11111111 11111111
+65536 >> 00000000 00000001 00000000 00000000
+```
+
 ### KR Tasks
 
 Не отклоняйтесь от предлагаемой архитектуры, потому как и я и вы будете тестить исходники ваших товарищей. Проще всего не отклоняться от данного шаблона чтобы просто скопировать тестируемый исходник.
