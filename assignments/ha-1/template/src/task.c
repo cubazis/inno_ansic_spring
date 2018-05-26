@@ -54,7 +54,18 @@ char* array_changer(const char c[])
 
 char* detab(const char input[])
 {
-	/** YOUR CODE HERE */
+	/** JUST TO CHECK */
+	char* c = ALLOCATE(10);
+	return c;
+}
+
+char* entab(const char input[])
+{
+	/** JUST TO CHECK */
+	char* c = ALLOCATE(10);
+	int size = 0;
+	STRING_LEN(size, input);
+	return c;
 }
 
 /** GET FROM task.h */
