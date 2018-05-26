@@ -15,6 +15,9 @@ tests/test_task.c
 tests/test_binarize.c
 ```
 ## Tasks
+That's what's important! If you suddenly use some macros in the tests, then write them in test_task.c itself or in test_binarize.c. If you use macros in the sources - then write them in the header of the sources. But do not store source code macros in tests and vice versa test macros in source code. Keep clean!
+
+I recommend familiarizing yourself with the basic concepts of the language by solving the problems from Kernighan Ritchie. And only then proceed to the binarizer.
 
 ### Binarizator
 Note that the declarations of *binarize_u* and *binarize_s* functions have changed. Now they must return *char**. 
