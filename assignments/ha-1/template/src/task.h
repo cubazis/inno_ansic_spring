@@ -8,25 +8,16 @@
 #include <stdio.h>
 #include "stdlib.h"
 
+#ifndef ALLOCATE
 #define ALLOCATE(i)(malloc((i) * sizeof(char)))
+#endif
 
+#ifndef STRING_LEN
 #define STRING_LEN(j, c) do                \
 	{                                  \
 		for (;'\0' != (c)[j];(j)++); \
-	} while(0)                         \
-
-#define COMPARATOR(res, c1, c2) do                    \
-	{                                             \
-		char i = 0;                           \
-		for (;'\0' != (c1)[i];i++)            \
-		{                                     \
-			if((c1)[i] != (c2)[i])        \
-				{                     \
-                                        (res) = 0;    \
-				}                     \
-		}                                     \
 	} while(0)
-
+#endif
 
 /** stub function declaration */
 
