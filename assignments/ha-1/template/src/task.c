@@ -40,7 +40,7 @@ char* array_changer(const char c[])
 	char* b = ALLOCATE(i);
 
 	for (;j < i;) {
-		if(b[j] == 'c')
+		if(c[j] == 'c')
 			b[j] = 'b';
 		else
 			b[j] = c[j];

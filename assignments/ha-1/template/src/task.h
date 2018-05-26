@@ -12,8 +12,7 @@
 
 #define STRING_LEN(j, c) do                \
 	{                                  \
-		for (;'\0' != (c)[i];i++); \
-		(j) = i;                   \
+		for (;'\0' != (c)[j];j++); \
 	} while(0)                         \
 
 #define COMPARATOR(res, c1, c2) do                    \
@@ -24,10 +23,6 @@
 			if((c1)[i] != (c2)[i])        \
 				{                     \
                                         (res) = 0;    \
-				}                     \
-			else                          \
-				{                     \
-                                        (res) = 1;    \
 				}                     \
 		}                                     \
 	} while(0)
