@@ -46,13 +46,13 @@ unsigned setbits(unsigned x, int p, int n, unsigned y);
 
 int binsearch(int x, int v[], int n);
 
-char* escape(const char from[], const char to[]);
+char* escape(const char from[]);
 
-char* expand(const char s1[], const char s2[]);
+char* expand(const char s1[]);
 
-char* itoa(int n, const char s[]);
+char* itoa(int n);
 
-char* itob(int n, const char s[], int b);
+char* itob(int n, int b);
 
 int strrindex(const char s[], const  char t[]);
 
