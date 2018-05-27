@@ -117,22 +117,22 @@ int binsearch(int x, int v[], int n);
 
 [3.2] функция escape. Обратную к ней писать не надо
 ```C
-char* escape(const char from[], const char to[]);
+char* escape(const char from[]);
 ```
 
 [3.3] функция expand
 ```C
-char* expand(const char s1[], const char s2[]);
+char* expand(const char s1[]);
 
 ```
 [3.4] функция itoa. Читайте задание внимательно. Требуется доработать код.
 ```C
-char* itoa(int n, const char s[]);
+char* itoa(int n);
 ```
 
 [3.5] функция itob. Читайте задание внимательно
 ```C
-char* itob(int n, const char s[], int b);
+char* itob(int n, int b);
 ```
 Задача 3.6 не нужна
 
