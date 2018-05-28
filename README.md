@@ -32,6 +32,7 @@ Martian Roadmap:
 - [1 Sol: ](lectures/lecture1.pdf)
     - [Lab Session 1](labs/lab-1/README.md)
     - [Assignment 1](assignments/ha-1)
+- [2 Sol: ](lectures/lecture2.pdf)
     
 ___
 
