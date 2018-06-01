@@ -2,7 +2,7 @@
 // Created by puzankova 30.05.18
 //
 
-#include "queue.h"
+#include "priority_queue.h"
 
 struct Node 
 {
