@@ -1,6 +1,7 @@
 //
 // Created by puzankova 02.06.18
 //
+#include "bitMap.h"
 
 void setBitByNumber(int* array, int bit, int position)
 {
@@ -30,7 +31,7 @@ void setBitByAddress(void* position, int bit)
 	/* YOUR CODE */
 }
 
-int betBitByAddress(void* position)
+int getBitByAddress(void* position)
 {
 	// this function returns first bit by memory address 'position'
 	
