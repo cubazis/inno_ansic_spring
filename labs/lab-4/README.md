@@ -3,40 +3,75 @@
 ## Humor 
 
 Python: What if everything was a dict?
+
 Java: What if everything was an object?
+
 JavaScript: What if everything was a dict *and* an object?
+
 C: What if everything was a pointer?
+
 APL: What if everything was an array?
+
 Tcl: What if everything was a string?
+
 Prolog: What if everything was a term?
+
 Lisp: What if everything was a pair?
+
 Scheme: What if everything was a function?
+
 Haskell: What if everything was a monad?
+
 Assembly: What if everything was a register?
+
 Coq: What if everything was a type/proposition?
+
 COBOL: WHAT IF EVERYTHING WAS UPPERCASE?
+
 C#: What if everything was like Java, but different?
+
 Ruby: What if everything was monkey patched?
+
 Pascal: BEGIN What if everything was structured? END
+
 C++: What if we added everything to the language?
+
 C++11: What if we forgot to stop adding stuff?
+
 Rust: What if garbage collection didn't exist?
+
 Go: What if we tried designing C a second time?
+
 Perl: What if shell, sed, and awk were one language?
+
 Perl6: What if we took the joke too far?
+
 PHP: What if we wanted to make SQL injection easier?
+
 VB: What if we wanted to allow anyone to program?
+
 VB .NET: What if we wanted them to stop again?
+
 Forth: What if everything was a stack?
+
 ColorForth: What if the stack was green?
+
 PostScript: What if everything was printed at 600dpi?
+
 XSLT: What if everything was an XML element?
+
 Make: What if everything was a dependency?
+
 m4: What if everything was incomprehensibly quoted?
+
 Scala: What if Haskell ran on the JVM?
+
 Clojure: What if Lisp ran on the JVM?
+
 Lua: What if game developers got tired of C++?
+
 Mathematica: What if Steven Wolfram invented everything?
+
 Malbolge: What if there is no god?
 
 ## Security & Improper Pointers Use Cases
