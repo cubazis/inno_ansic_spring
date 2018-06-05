@@ -186,7 +186,7 @@ char *strcpy (char *dst, const char *src);
 char * strcat( char * destptr, const char * srcptr );
 ```
 
-![GitHub](![GitHub](https://github.com/cubazis/inno_ansic_spring/blob/dev/imgs/classic.jpg))
+![GitHub](https://github.com/cubazis/inno_ansic_spring/blob/dev/imgs/classic.jpg)
 
 #### NULL Test
 
@@ -230,7 +230,7 @@ int *pi = (int*) malloc(sizeof(int));
 printf("*pi: %d\n", *pi);
 free(pi);
 ```
-![GitHub](![GitHub](https://github.com/cubazis/inno_ansic_spring/blob/dev/imgs/dangling.jpg))
+![GitHub](https://github.com/cubazis/inno_ansic_spring/blob/dev/imgs/dangling.jpg)
 
 #### Outside the Bounds
 
@@ -248,7 +248,7 @@ printf("%p %s\n", firstName,firstName);
 printf("%p %s\n", middleName,middleName);
 printf("%p %s\n", lastName,lastName);
 ```
-![GitHub](![GitHub](https://github.com/cubazis/inno_ansic_spring/blob/dev/imgs/obounds.jpg))
+![GitHub](https://github.com/cubazis/inno_ansic_spring/blob/dev/imgs/obounds.jpg)
 
 #### Calculating the Array Size
 

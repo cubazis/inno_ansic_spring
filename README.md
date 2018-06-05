@@ -33,8 +33,14 @@ Martian Roadmap:
     - [Lab Session 1](labs/lab-1/README.md)
     - [Assignment 1](assignments/ha-1)
 - [2 Sol: ](lectures/lecture2.pdf)
-    - [Lab Session 2](https://github.com/cubazis/inno_ansic_spring/blob/dev/imgs/nihuya.jpg)
-    - [Assignment 2](https://github.com/cubazis/inno_ansic_spring/tree/dev/assignments/ha-2)
+    - [Lab Session 2](labs/lab-2)
+    - [Assignment 2](assignments/ha-2)
+- [3 Sol: ](lectures/lecture3.pdf)
+    - [Lab Session 3](labs/lab-3)
+    - [Assignment 3](assignments/ha-3)
+- [4 Sol: ](lectures/lecture4.pdf)
+    - [Lab Session 4](labs/lab-4)
+    - [Assignment 4](assignments/ha-4)
 ___
 
 Schedule and team lineups can be found on [wiki page](https://github.com/cubazis/inno_ansic_spring/wiki/Schedule-&-lineups
