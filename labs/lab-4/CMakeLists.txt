@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(template)
+project(lab4)
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c99 -Wall -Wextra -Wshadow")
 
