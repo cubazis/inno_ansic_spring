@@ -20,19 +20,6 @@
 	} while(0)
 #endif
 
-#ifndef COMPARATOR_2
-#define COMPARATOR_2(res, c1, c2) do                  \
-	{                                             \
-		char i = 0;                           \
-		for (;'\0' != (c1)[i];i++)            \
-		{                                     \
-			if((c1)[i] != (c2)[i])        \
-				{                     \
-                                        (res) = 0;    \
-				}                     \
-		}                                     \
-	} while(0)
-#endif
 
 void comparator(int* res, const char c1[], const char c2[]){
 	int i = 0;
@@ -54,8 +41,8 @@ START_TEST (test_comparator)
 		/** The functional alternative of COMPARATOR with pointer referring */
 		//comparator(&k, output, pattern);
 
-		COMPARATOR_2(l, output, pattern);
-		ck_assert(1 == l);
+		COMPARATOR(l, output, pattern);
+		ck_assert(0 == l);
 	}
 END_TEST
 
@@ -89,8 +76,8 @@ END_TEST
 Suite* str_suite (void) {
 	Suite *suite = suite_create("binarize");
 	TCase *tcase = tcase_create("case");
-	//tcase_add_test(tcase, test_bin_u);
-	//tcase_add_test(tcase, test_bin_s);
+	tcase_add_test(tcase, test_bin_u);
+	tcase_add_test(tcase, test_bin_s);
 	tcase_add_test(tcase, test_comparator);
 	suite_add_tcase(suite, tcase);
 	return suite;
