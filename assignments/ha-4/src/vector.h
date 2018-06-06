@@ -6,7 +6,12 @@
 #define LAB4_EXPANDABLE_VECTOR_H
 
 #include <stddef.h> /* for size t */
-typedef struct Vector Vector;
+typedef struct Vector{
+    void *data;
+    size_t capacity;
+    size_t size;
+    size_t itemsize;
+} Vector;
 
 /* Vector creation and destruction. */
 
