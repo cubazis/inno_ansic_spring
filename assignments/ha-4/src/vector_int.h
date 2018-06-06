@@ -7,9 +7,14 @@
 
 #include "vector.h"
 /* Vector creation. */
+
 Vector *vector_create_int(size_t capacity);
 /* Vector access operations. */
+
 int vector_push_back_int(Vector *v, int item);
+
 int vector_pop_back_int(Vector *v);
+
+int vector_get_element_int(Vector *v, size_t index);
 
 #endif //LAB4_EXPANDABLE_VECTOR_INT_H
