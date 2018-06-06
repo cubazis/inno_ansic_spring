@@ -10,7 +10,7 @@ include_directories(. ../src)
 
 add_executable(test_vector test_vector.c ../src/vector.c)
 add_executable(test_vector_int test_vector_int.c ../src/vector_int.c)
-add_executable(test_vector_qsort test_vector_qsort.c ../src/vector_int.c)
+add_executable(test_vector_qsort test_vector_qsort.c ../src/vector_int.c ../src/vector.c)
 
 target_link_libraries(test_vector ${CHECK_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})
 target_link_libraries(test_vector_int ${CHECK_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})

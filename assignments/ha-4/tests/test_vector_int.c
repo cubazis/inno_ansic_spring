@@ -5,10 +5,14 @@
 #include <check.h>
 #include "vector_int.h"
 #include <stdlib.h>
+#include "stdio.h"
 
 START_TEST(test_vector_create)
 {
-
+	struct Vector * v  = (Vector *) vector_create_int(50);
+	for (int i = 0; i < 10; ++i) {
+		printf("%d\n",vector_push_back_int(v, i*i));
+	}
 }
 END_TEST
 

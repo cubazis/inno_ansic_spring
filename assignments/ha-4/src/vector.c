@@ -57,14 +57,15 @@ int vector_push_back(Vector *v, const void *item)
 	if (v->size == v->capacity) {
 		size_t newsize = (v->capacity == 0) ? StartSize : (size_t)(v->capacity*GrowthRate + 1.0);
 		void *p = realloc(v->data, newsize*v->itemsize);
-		if (p == NULL)
+		if (p == NULL){
 			return -1;
+		}
 		v->capacity = newsize; /* allocate succeeds, update data-structure */
 		v->data = p;
 	}
 	/* We have enough room. */
-	memcpy((char*)v->data + v->size * v->itemsize, item, v->itemsize);
-	return v->size++;
+	memcpy(v->data + v->size * v->itemsize, item, v->itemsize);
+	return (int) ++v->size;
 }
 
 
