@@ -11,8 +11,6 @@
 int comp_vectors_int(const void *a, const void *b)
 /* Returns -ve if a<b, 0 if a==b, +ve if a>b */
 {
-	struct Vector *v1 = (struct Vector *)a;
-	struct Vector *v2 = (struct Vector *)b;
 	/** YOUR CODE HERE */
 }
 
@@ -22,7 +20,7 @@ START_TEST(test_vector_qsort)
 	for (int i = 0; i < NELEMS(v); ++i) {
 		/** Initialisation */
 	}
-	qsort(&v, NELEMS(v), sizeof v[0], comp_vectors_int);
+	qsort(v->data, v->size, v->itemsize, comp_vectors_int);
 	for (int i = 0; i < NELEMS(v); ++i) {
 		/** printf */
 	}
